@@ -15,11 +15,6 @@ menuconfig BLK_DEV
 
 if BLK_DEV
 
-config ENC_RAM
-	tristate "Encrypted RamDisk"
-	---help---
-	  Yeah good luck
-
 config BLK_DEV_NULL_BLK
 	tristate "Null test block driver"
 
